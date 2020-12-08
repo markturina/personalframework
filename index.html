@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Framework</title>
+
+<!-- ADOBE FONTS -->
+<link rel="stylesheet" href="https://use.typekit.net/ypc5sbq.css">
+
+
+<!--MAIN CSS STYLES -->
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="site-id">
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+            </div>
+            <h1 class="hide-visually"><a href="#">My Framework</a></h1>
+        </div>
+        <nav class="site-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="subpage.html">Subpage</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="site-main">
+
+        <section class="hero">
+            <div class="container">
+            <h1>Mark's Framework</h1>
+                <p>This is a simple, multipage webstie framework with SASS.</p>
+                <a href="#section01" class="button">Go to Section 1</a>
+                <a href="#section02" class="button">Go to Section 2</a>
+            </div>
+        </section>
+
+
+<section id="section01">
+    <div class="container">
+        <div class="row">
+            <div class="one-half">
+                <img src="https://via.placeholder.com/1600x1200" alt="Placeholder">
+            </div>
+            <div class="one-half">
+                <h3>Heading 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci repellat modi repudiandae! Repudiandae ipsam consectetur deleniti, similique doloremque necessitatibus excepturi.</p>
+                <a href="#" class="button">Button</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="section02">
+    <div class="container">
+        <div class="row swapped">
+            <div class="one-half">
+                <img src="https://via.placeholder.com/1600x1200" alt="Placeholder">
+            </div>
+            <div class="one-half">
+                <h3>Heading 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci repellat modi repudiandae! Repudiandae ipsam consectetur deleniti, similique doloremque necessitatibus excepturi.</p>
+                <a href="#" class="button">Button</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="section03">
+    <div class="container">
+        <div class="row stacked">
+            <div class="one-half">
+                <img src="https://via.placeholder.com/1600x1200" alt="Placeholder">
+            </div>
+            <div class="one-half">
+                <h3>Heading 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci repellat modi repudiandae! Repudiandae ipsam consectetur deleniti, similique doloremque necessitatibus excepturi.</p>
+                <a href="#" class="button">Button</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+    <nav class="site-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="subpage.html">Subpage</a></li>
+        </ul>
+    </nav>
+</footer>
+
+
+
+    <!-- SMOOTH SCROLL BY CHRIS FERDINANDI https://github.com/cferdinandi/smooth-scroll -->
+    <script src="js/smooth-scroll.polyfills.min.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 800,
+            speedAsDuration: true
+        });
+    </script>
+
+
+</body>
+</html>
